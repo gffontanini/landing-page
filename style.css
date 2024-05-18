@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #f9faf8;
+	margin-right: 20px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: "Roboto", sans-serif;
+}
+
+.header,
+.information,
+.footer {
+	background-color: #1f2937;
+	display: flex;
+	color: white;
+}
+
+header {
+	gap: 15px;
+	padding: 20px 20%;
+	align-items: center;
+}
+
+.logo {
+	font-size: 24px;
+	color: #f9faf8;
+	font-weight: 900;
+}
+
+.header {
+	display: flex;
+	padding: 12px;
+	justify-content: space-around;
+}
+
+.information {
+	display: flex;
+	flex: 1;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+button {
+	border-radius: 10px;
+	color: white;
+	padding: 10px 20px;
+}
+
+.tickets {
+	border: none;
+	background-color: #3882f6;
+	margin-bottom: 30px;
+}
+
+.info-title {
+	font-size: 48px;
+	font-weight: 900px;
+	color: #f9faf8;
+	max-width: 600px;
+	margin-bottom: 30px;
+}
+
+.info-text {
+	font-size: 18px;
+	color: #e5e7eb;
+	max-width: 600px;
+	margin-bottom: 30px;
+}
+
+.image-header {
+	width: 500px;
+	height: auto;
+	padding: 30px;
+}
+
+.gallery {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.gallery-title {
+	font-size: 20px;
+	font-weight: 700;
+	color: #1f2937;
+	align-self: center;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.gallery-cards {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 32px;
+}
+
+.gallery-images {
+	width: 200px;
+	height: auto;
+	border-radius: 12px;
+	margin-bottom: 20px;
+	border: 5px solid #3882f6;
+}
+
+.text {
+	max-width: 200px;
+	text-align: center;
+}
+
+.quote {
+	background-color: #e5e7eb;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 100px 200px;
+}
+
+.quote-text {
+	font-size: 30px;
+	font-style: italic;
+	font-weight: lighter;
+	align-self: center;
+}
+
+.author {
+	align-self: flex-end;
+	padding-top: 20px;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.newsletter {
+	display: flex;
+	color: white;
+	background-color: #3882f6;
+	margin: 50px;
+	border-radius: 12px;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+.sign-up {
+	align-self: center;
+	background-color: #3882f6;
+	margin-left: 70px;
+	border-color: #e5e7eb;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.left-bottom {
+	max-width: 500px;
+	font-size: 15px;
+}
+
+.news-title {
+	font-size: 25px;
+}
+
+.footer {
+	padding: 25px;
+	justify-content: center;
+}
